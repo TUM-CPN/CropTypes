@@ -1,0 +1,13 @@
+geopandas
+matplotlib
+shapely
+geomet
+geojson
+pandas
+numpy
+Pillow
+scikit-learn
+pickle
+
+
+
