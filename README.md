@@ -1,24 +1,23 @@
-# Crop Types Classification
 ![Alt text](https://github.com/TUM-CPN/CropTypes/blob/master/docs/abstract.png "Title")
 
 **cite**
 
 If you find the data and code interesting, we would appreciate a citation.
 
-@article{cseker2017extending,
-title={Multi-Temporal Crop Type and Field Boundary Classification with Google Earth Engine},
-author={Marszalek, M.; Lösch, M.; Körner, M.; Schmidhalter, U.},
-journal={Preprints 2020, 2020040316},
-number={doi: 10.20944/preprints202004.0316.v1},
-year={2020}
+<!--
+```bibtex
+@article{marszalek2020self,
+  title={Multi-Temporal Crop Type and Field Boundary Classification with Google Earth Engine},
+  author={Marszalek, M.; L{\"o}sch, M.; K{\"o}rner, M.; Schmidhalter, U.},
+  journal={MDPI preprint doi: 10.20944/preprints202004.0316.v1},
+  year={2020}
 }
+```
+-->
 
-@inproceedings{plummerCITE2018,
-Author = {Bryan A. Plummer and Paige Kordas and M. Hadi Kiapour and Shuai Zheng and Robinson Piramuthu and Svetlana Lazebnik},
-Title = {Conditional Image-Text Embedding Networks},
-Booktitle  = {The European Conference on Computer Vision (ECCV)},
-Year = {2018}
-}
+Source:
+[Marszalek, M.; Lösch, M.; Körner, M.; Schmidhalter, U. (2020), *Multi-Temporal Crop Type and Field Boundary Classification with Google Earth Engine*](https://www.researchgate.net/publication/340769396_Multi-Temporal_Crop_Type_and_Field_Boundary_Classification_with_Google_Earth_Engine)
+
 
 ## Environment setup for Python3
 
@@ -64,7 +63,7 @@ A total of 2099 fields were randomly selected in Upper Bavaria and corresponding
 The data is already preprocessed and downloaded form Google Earth Engine.
 (Interpolation: 2 weeks, Cloud Filter: 20%)
 
-[![IMAGE ALT TEXT HERE](https://youtu.be/NjDcbsn0Q84)](https://www.youtube.com/watch?https://youtu.be/NjDcbsn0Q84)
+![First-Layer Attention Heads](docs/durnast.gif)
 
 ## Classification
 
