@@ -51,7 +51,7 @@ Winter barley: 131<br/>
 Corn: 400<br/>
 Winter rapeseed: 311<br/>
 Winter wheat: 115<br/>
-sugar beet: 603<br/>
+Sugar beet: 603<br/>
 Other: 1<br/>
 
 ## Satellite Data
