@@ -4,7 +4,6 @@
 
 If you find the data and code interesting, we would appreciate a citation.
 
-<!--
 ```bibtex
 @article{marszalek2020self,
   title={Multi-Temporal Crop Type and Field Boundary Classification with Google Earth Engine},
@@ -13,7 +12,6 @@ If you find the data and code interesting, we would appreciate a citation.
   year={2020}
 }
 ```
--->
 
 Source:
 [Marszalek, M.; Lösch, M.; Körner, M.; Schmidhalter, U. (2020), *Multi-Temporal Crop Type and Field Boundary Classification with Google Earth Engine*](https://www.researchgate.net/publication/340769396_Multi-Temporal_Crop_Type_and_Field_Boundary_Classification_with_Google_Earth_Engine)
