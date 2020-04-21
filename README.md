@@ -59,7 +59,11 @@ Other: 1<br/>
 The satellite data have a temporary resolution of 2 weeks and include the average values for raw bands (B1-B12), NDVI, NDWI, REIP and NDWI. 
 A total of 2099 fields were randomly selected in Upper Bavaria and corresponding Sentinel-2 data from February to August were added.
 The data is already preprocessed and downloaded form Google Earth Engine.
-(interpolation: 2 weeks, Scene meta cloud filter: 20%)
+(interpolation: 2 weeks, Scene meta cloud filter: 20%)<br/>
+
+We provide two data sets (data2016-2018.xlsx and testdata.xlsx).
+The test data set is an independent data set with fields near Dürnast, Freising in 2018 with additional 301 crops. <br/>
+
 
 ![First-Layer Attention Heads](docs/durnast.gif)
 
