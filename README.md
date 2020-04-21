@@ -33,38 +33,41 @@ and install requirements
 
 ## Introduction
 
-The following code snipplets show examples of how to perform a classification with the sources and what data is required for this. We would be happy if you test your methods with the same data to compare new methods.
+The following code snippets show examples of how a classification can be carried out with the sources and what data is required for this. We would be pleased if you test and compare your methods with the same data.
 
 ## Crop Data
 
-We have received permission from the Bavarian State Ministry of Agriculture and Forestry (StMELF) to publish a part of the data so that further procedures can be compared. The data will be loaded as follows:
+The data is loaded as follows:
 
 ```python
-fp = r"../data/crop-data/Test_area.shp"
+fp = "../data/crop-data/Test_area.shp"
 gpd_frame = gpd.read_file(fp)
 gpd_frame.head()
 ```
 
-The codes in column "NC_ant" stand for:
-Potato: 600
-Winter barley: 131
-Corn: 400
-Winter rapeseed: 311
-Winter wheat: 115
-sugar beet: 603
-Other: 1
+The codes in column "NC_ant" stand for:<br/>
+Potato: 600<br/>
+Winter barley: 131<br/>
+Corn: 400<br/>
+Winter rapeseed: 311<br/>
+Winter wheat: 115<br/>
+sugar beet: 603<br/>
+Other: 1<br/>
 
 ## Satellite Data
 
 The satellite data have a temporary resolution of 2 weeks and include the average values for raw bands (B1-B12), NDVI, NDWI, REIP and NDWI. 
 A total of 2099 fields were randomly selected in Upper Bavaria and corresponding Sentinel-2 data from February to August were added.
 The data is already preprocessed and downloaded form Google Earth Engine.
-(Interpolation: 2 weeks, Cloud Filter: 20%)
+(interpolation: 2 weeks, Scene meta cloud filter: 20%)
 
 ![First-Layer Attention Heads](docs/durnast.gif)
 
 ## Classification
 
-The notebook CropType describes the classification model based on a trained model. Our data set includes various satellite data if you want to train an own model.
+The CropType notebook describes the classification based on a trained model. The record contains various satellite data if you want to train your own model.
 
 ![Alt text](https://github.com/TUM-CPN/CropTypes/blob/master/docs/croptype.png "Title")
+
+## Acknowledgments
+StMELF, the Bavarian State Ministry of Agriculture and Forestry supported this research with its crop type data set.
