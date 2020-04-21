@@ -62,7 +62,7 @@ The data is already preprocessed and downloaded form Google Earth Engine.
 (interpolation: 2 weeks, Scene meta cloud filter: 20%)<br/>
 
 We provide two data sets (data2016-2018.xlsx and testdata.xlsx).
-The test data set is an independent data set with fields near Dürnast, Freising in 2018 with additional 301 crops. <br/>
+The test data set is an independent data set with fields near Dürnast, Freising in 2018 with additional 301 crop records. <br/>
 
 
 ![First-Layer Attention Heads](docs/durnast.gif)
