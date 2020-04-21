@@ -2,6 +2,7 @@
 ![Alt text](https://github.com/TUM-CPN/CropTypes/blob/master/docs/abstract.png "Title")
 
 **cite**
+
 If you find the data and code interesting, we would appreciate a citation.
 
 @article{cseker2017extending,
@@ -10,6 +11,13 @@ author={Marszalek, M.; Lösch, M.; Körner, M.; Schmidhalter, U.},
 journal={Preprints 2020, 2020040316},
 number={doi: 10.20944/preprints202004.0316.v1},
 year={2020}
+}
+
+@inproceedings{plummerCITE2018,
+Author = {Bryan A. Plummer and Paige Kordas and M. Hadi Kiapour and Shuai Zheng and Robinson Piramuthu and Svetlana Lazebnik},
+Title = {Conditional Image-Text Embedding Networks},
+Booktitle  = {The European Conference on Computer Vision (ECCV)},
+Year = {2018}
 }
 
 ## Environment setup for Python3
