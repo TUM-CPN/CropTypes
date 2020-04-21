@@ -56,14 +56,10 @@ A total of 2099 fields were randomly selected in Upper Bavaria and corresponding
 The data is already preprocessed and downloaded form Google Earth Engine.
 (Interpolation: 2 weeks, Cloud Filter: 20%)
 
-[![Watch the video](https://github.com/TUM-CPN/CropTypes/blob/master/docs/durnast2.mp4)]
-
-[![Watch the video](https://youtu.be/NjDcbsn0Q84)](https://youtu.be/NjDcbsn0Q84)
-
+[![IMAGE ALT TEXT HERE](https://youtu.be/NjDcbsn0Q84)](https://www.youtube.com/watch?https://youtu.be/NjDcbsn0Q84)
 
 ## Classification
 
 The notebook CropType describes the classification model based on a trained model. Our data set includes various satellite data if you want to train an own model.
 
-https://youtu.be/NjDcbsn0Q84
 ![Alt text](https://github.com/TUM-CPN/CropTypes/blob/master/docs/croptype.png "Title")
