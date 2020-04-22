@@ -88,5 +88,5 @@ y_pred = loaded_model.predict(X=X)
 
 ## Acknowledgment
 StMELF, the Bavarian State Ministry of Agriculture and Forestry supported this research with its crop type data set.
-The data set is free for research activites.
+The data set is free for research activities.
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
