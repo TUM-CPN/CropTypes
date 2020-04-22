@@ -27,9 +27,13 @@ activate it
 
     source env/bin/activate
     
-and install requirements
+install requirements
 
     pip3 install -r requirements.txt 
+    
+and enjoy
+
+    jupyter lab notebook/CropType.ipynb
 
 ## Introduction
 
@@ -71,7 +75,16 @@ The test data set is an independent data set with fields near Dürnast, Freising
 
 The CropType notebook describes the classification based on a trained model. The record contains various satellite data if you want to train your own model.
 
+```python
+# load the model 2016-2018
+filename='../model/model_RF_bands_161718_withoutother.sav'
+loaded_model = pickle.load(open(filename, 'rb'))
+
+#predict label
+y_pred = loaded_model.predict(X=X)
+```
+
 ![Alt text](https://github.com/TUM-CPN/CropTypes/blob/master/docs/croptype.png "Title")
 
-## Acknowledgments
+## Acknowledgment
 StMELF, the Bavarian State Ministry of Agriculture and Forestry supported this research with its crop type data set.
