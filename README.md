@@ -44,9 +44,9 @@ The following code snippets show examples of how a classification can be carried
 The data is loaded as follows:
 
 ```python
-fp = "../data/crop-data/Test_area.shp"
+fp = "../data/cropdata/Test_area.shp"
 gpd_frame = gpd.read_file(fp)
-gpd_frame.head()
+gpd_frame.plot()
 ```
 
 The codes in column "NC_ant" stand for:<br/>
