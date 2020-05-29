@@ -1,7 +1,5 @@
 ![Alt text](https://github.com/TUM-CPN/CropTypes/blob/master/docs/abstract.png "Title")
 
-**cite**
-
 ## Environment setup for Python3
 
 Create a new virtual environment with
