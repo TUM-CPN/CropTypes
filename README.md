@@ -2,21 +2,6 @@
 
 **cite**
 
-If you find the data and code interesting, we would appreciate a citation.
-
-```bibtex
-@article{marszalek2020self,
-  title={Multi-Temporal Crop Type and Field Boundary Classification with Google Earth Engine},
-  author={Marszalek, M.; L{\"o}sch, M.; K{\"o}rner, M.; Schmidhalter, U.},
-  journal={MDPI preprint doi: 10.20944/preprints202004.0316.v1},
-  year={2020}
-}
-```
-
-Source:
-[Marszalek, M.; Lösch, M.; Körner, M.; Schmidhalter, U. (2020), *Multi-Temporal Crop Type and Field Boundary Classification with Google Earth Engine*](https://www.researchgate.net/publication/340769396_Multi-Temporal_Crop_Type_and_Field_Boundary_Classification_with_Google_Earth_Engine)
-
-
 ## Environment setup for Python3
 
 Create a new virtual environment with
